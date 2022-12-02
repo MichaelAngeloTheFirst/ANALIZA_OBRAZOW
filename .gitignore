@@ -1,0 +1,11 @@
+#images and csv download from google drive
+#dirs with images
+test/
+train/
+valid/
+
+#files with .jpg extension
+*.jpg
+
+#csv 
+spiders.csv
