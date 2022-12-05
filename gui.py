@@ -35,11 +35,8 @@ def get_image(path):
 
 sg.theme('DarkGreen3')   
 
-col_layout = [
-    [sg.Button('Exit' )]
-]
 
-layout = [  [sg.Column(col_layout, element_justification='right', expand_x=True)],
+layout = [  [sg.Column([[sg.Button('Exit' )]], element_justification='right', expand_x=True)],
             [sg.Text("Nasza skuteczność (accuracy) wynosi około 84,9% ", pad=(0,10))],
             [sg.Text("Choose a file: ", pad=(0,10)), sg.Input(), sg.FileBrowse(key="-IN-")],
             [sg.Button("Submit", pad=(0,10))],
