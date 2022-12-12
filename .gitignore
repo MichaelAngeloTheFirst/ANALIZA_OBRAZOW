@@ -3,9 +3,10 @@
 test/
 train/
 valid/
-
-#files with .jpg extension
-*.jpg
+stare_obrazki/
 
 #csv 
 spiders.csv
+
+#virtual environment
+env/

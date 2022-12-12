@@ -21,7 +21,7 @@ def model_labels(val):
     if val == 1:
         return "train/expected_files/red.002.jpg", "Red Knee"
     if val == 2:
-        return "train/expected_files/pea.001.jpg", "Peackock"
+        return "train/expected_files/pea.001.jpg", "Peacock"
 
 
 w, h = 640, 480
